@@ -1,0 +1,3782 @@
+{
+    "data": {
+      "AppPresentation_queryNearToALocation": {
+        "__typename": "AppPresentation_QueryNearbyToLocationResponse",
+        "filters": {
+          "__typename": "AppPresentation_FilterResponse",
+          "showAllText": {
+            "__typename": "AppPresentation_LocalizedString",
+            "string": "Show results",
+            "debugValueKey": null
+          },
+          "availableFilterGroups": [
+            {
+              "__typename": "AppPresentation_StandardFilterGroup",
+              "name": "Filters",
+              "groupType": "StandardFilterGroup",
+              "tooltip": null,
+              "filters": [
+                {
+                  "__typename": "AppPresentation_MultiValueFilter",
+                  "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_filterGroups_0_0\",\"fn\":\"placetype\"}",
+                  "trackingTitle": "PlaceTypeFilter_placetype",
+                  "title": "Categories",
+                  "name": "placetype",
+                  "surfaces": [
+                    "MAP"
+                  ],
+                  "tooltip": null,
+                  "values": [
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 0,
+                      "value": "hotel",
+                      "isDisabled": null,
+                      "isSelected": true,
+                      "object": {
+                        "__typename": "AppPresentation_PlaceTypeFilterValue",
+                        "placeType": "hotel",
+                        "title": "Hotels"
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Disable filter: Hotels",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Enable filter: Hotels",
+                        "debugValueKey": null
+                      },
+                      "tooltip": null
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 20,
+                      "value": "attraction",
+                      "isDisabled": null,
+                      "isSelected": true,
+                      "object": {
+                        "__typename": "AppPresentation_PlaceTypeFilterValue",
+                        "placeType": "attraction",
+                        "title": "Things to do"
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Disable filter: Things to do",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Enable filter: Things to do",
+                        "debugValueKey": null
+                      },
+                      "tooltip": null
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 20,
+                      "value": "restaurant",
+                      "isDisabled": null,
+                      "isSelected": true,
+                      "object": {
+                        "__typename": "AppPresentation_PlaceTypeFilterValue",
+                        "placeType": "restaurant",
+                        "title": "Restaurants"
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Disable filter: Restaurants",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Enable filter: Restaurants",
+                        "debugValueKey": null
+                      },
+                      "tooltip": null
+                    }
+                  ]
+                },
+                {
+                  "__typename": "AppPresentation_MultiValueFilter",
+                  "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_filterGroups_0_1\",\"fn\":\"neighborhood\"}",
+                  "trackingTitle": "APSMultiValueFilter_neighborhood",
+                  "title": "Neighborhood",
+                  "name": "neighborhood",
+                  "surfaces": [
+                    "MAP"
+                  ],
+                  "tooltip": null,
+                  "values": [
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 186,
+                      "value": "20483955",
+                      "isDisabled": false,
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_LocationFilterValue",
+                        "location": {
+                          "__typename": "LocationSelection_LocationInformationV2",
+                          "names": {
+                            "__typename": "LocationSelection_LocationNames",
+                            "name": "Florida Center"
+                          }
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Florida Center filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Florida Center filter ",
+                        "debugValueKey": null
+                      },
+                      "tooltip": null
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 147,
+                      "value": "23722562",
+                      "isDisabled": false,
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_LocationFilterValue",
+                        "location": {
+                          "__typename": "LocationSelection_LocationInformationV2",
+                          "names": {
+                            "__typename": "LocationSelection_LocationNames",
+                            "name": "International Drive"
+                          }
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove International Drive filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply International Drive filter ",
+                        "debugValueKey": null
+                      },
+                      "tooltip": null
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 77,
+                      "value": "20483953",
+                      "isDisabled": false,
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_LocationFilterValue",
+                        "location": {
+                          "__typename": "LocationSelection_LocationInformationV2",
+                          "names": {
+                            "__typename": "LocationSelection_LocationNames",
+                            "name": "Doctor Phillips"
+                          }
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Doctor Phillips filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Doctor Phillips filter ",
+                        "debugValueKey": null
+                      },
+                      "tooltip": null
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 72,
+                      "value": "13087754",
+                      "isDisabled": false,
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_LocationFilterValue",
+                        "location": {
+                          "__typename": "LocationSelection_LocationInformationV2",
+                          "names": {
+                            "__typename": "LocationSelection_LocationNames",
+                            "name": "DLF Cyber City"
+                          }
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove DLF Cyber City filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply DLF Cyber City filter ",
+                        "debugValueKey": null
+                      },
+                      "tooltip": null
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 48,
+                      "value": "21001976",
+                      "isDisabled": false,
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_LocationFilterValue",
+                        "location": {
+                          "__typename": "LocationSelection_LocationInformationV2",
+                          "names": {
+                            "__typename": "LocationSelection_LocationNames",
+                            "name": "Downtown Orlando"
+                          }
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Downtown Orlando filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Downtown Orlando filter ",
+                        "debugValueKey": null
+                      },
+                      "tooltip": null
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 45,
+                      "value": "20483959",
+                      "isDisabled": false,
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_LocationFilterValue",
+                        "location": {
+                          "__typename": "LocationSelection_LocationInformationV2",
+                          "names": {
+                            "__typename": "LocationSelection_LocationNames",
+                            "name": "Millenia"
+                          }
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Millenia filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Millenia filter ",
+                        "debugValueKey": null
+                      },
+                      "tooltip": null
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 27,
+                      "value": "20483958",
+                      "isDisabled": false,
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_LocationFilterValue",
+                        "location": {
+                          "__typename": "LocationSelection_LocationInformationV2",
+                          "names": {
+                            "__typename": "LocationSelection_LocationNames",
+                            "name": "Metro West"
+                          }
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Metro West filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Metro West filter ",
+                        "debugValueKey": null
+                      },
+                      "tooltip": null
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 13,
+                      "value": "21002136",
+                      "isDisabled": false,
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_LocationFilterValue",
+                        "location": {
+                          "__typename": "LocationSelection_LocationInformationV2",
+                          "names": {
+                            "__typename": "LocationSelection_LocationNames",
+                            "name": "St Joses"
+                          }
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove St Joses filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply St Joses filter ",
+                        "debugValueKey": null
+                      },
+                      "tooltip": null
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 9,
+                      "value": "13209296",
+                      "isDisabled": false,
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_LocationFilterValue",
+                        "location": {
+                          "__typename": "LocationSelection_LocationInformationV2",
+                          "names": {
+                            "__typename": "LocationSelection_LocationNames",
+                            "name": "Lake Nona"
+                          }
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Lake Nona filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Lake Nona filter ",
+                        "debugValueKey": null
+                      },
+                      "tooltip": null
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 4,
+                      "value": "21001977",
+                      "isDisabled": false,
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_LocationFilterValue",
+                        "location": {
+                          "__typename": "LocationSelection_LocationInformationV2",
+                          "names": {
+                            "__typename": "LocationSelection_LocationNames",
+                            "name": "Florida Mall"
+                          }
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Florida Mall filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Florida Mall filter ",
+                        "debugValueKey": null
+                      },
+                      "tooltip": null
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "13087802",
+                      "isDisabled": false,
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_LocationFilterValue",
+                        "location": {
+                          "__typename": "LocationSelection_LocationInformationV2",
+                          "names": {
+                            "__typename": "LocationSelection_LocationNames",
+                            "name": "Khan Market/Lodhi Garden"
+                          }
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Khan Market/Lodhi Garden filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Khan Market/Lodhi Garden filter ",
+                        "debugValueKey": null
+                      },
+                      "tooltip": null
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "15565750",
+                      "isDisabled": false,
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_LocationFilterValue",
+                        "location": {
+                          "__typename": "LocationSelection_LocationInformationV2",
+                          "names": {
+                            "__typename": "LocationSelection_LocationNames",
+                            "name": "Lake View"
+                          }
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Lake View filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Lake View filter ",
+                        "debugValueKey": null
+                      },
+                      "tooltip": null
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "15565852",
+                      "isDisabled": false,
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_LocationFilterValue",
+                        "location": {
+                          "__typename": "LocationSelection_LocationInformationV2",
+                          "names": {
+                            "__typename": "LocationSelection_LocationNames",
+                            "name": "North Side"
+                          }
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove North Side filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply North Side filter ",
+                        "debugValueKey": null
+                      },
+                      "tooltip": null
+                    }
+                  ]
+                }
+              ],
+              "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_filterGroups_0\",\"fn\":\"Filters\"}",
+              "trackingTitle": "GeoListFilterGroup"
+            }
+          ]
+        },
+        "skippedSections": [],
+        "container": {
+          "__typename": "AppPresentation_BaseResponseContainer",
+          "navTitle": "Nha Trang View Restaurant"
+        },
+        "mapSections": [
+          {
+            "__typename": "AppPresentation_DynamicMapSection",
+            "clusterId": "DYNAMIC_MAP",
+            "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0\",\"mt\":\"BEST_NEARBY\"}",
+            "trackingTitle": "DynamicMapSection_DYNAMIC_MAP",
+            "stableDiffingType": "DynamicMapSection_DYNAMIC_MAP",
+            "anchor": {
+              "__typename": "AppPresentation_MapPin",
+              "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_30\",\"ctt\":\"LOCATION\",\"lid\":3589464,\"mit\":\"restaurants\"}",
+              "trackingTitle": "DynamicMapPinCard_restaurant_cc8fc7b8-88ed-47d3-a70e-0de9991f6604",
+              "icon": {
+                "__typename": "AppPresentation_MapPinIcon",
+                "activeName": "restaurants",
+                "name": "restaurants-fill"
+              },
+              "isSaved": false,
+              "saveId": {
+                "__typename": "Trips_ReferenceV2",
+                "id": "3589464",
+                "type": "location"
+              },
+              "geoPoint": {
+                "__typename": "AppPresentation_GeoPoint",
+                "latitude": 12.256585,
+                "longitude": 109.19803
+              },
+              "fallbackIcon": "RESTAURANT",
+              "omitSaves": false,
+              "stableDiffingType": "DynamicMapPinCard_restaurant_cc8fc7b8-88ed-47d3-a70e-0de9991f6604"
+            },
+            "center": {
+              "__typename": "AppPresentation_GeoPoint",
+              "latitude": 28.556541,
+              "longitude": 77.210304
+            },
+            "pins": [
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_0\",\"ctt\":\"LOCATION\",\"lid\":311626,\"mit\":\"attractions\"}",
+                "trackingTitle": "DynamicMapPinCard_attraction_311626",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "attractions",
+                  "name": "attractions-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "311626",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.524527,
+                  "longitude": 77.18548
+                },
+                "fallbackIcon": "ATTRACTION",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_attraction_311626"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_1\",\"ctt\":\"LOCATION\",\"lid\":8030812,\"mit\":\"coffee-tea-cafe\"}",
+                "trackingTitle": "DynamicMapPinCard_restaurant_1279a9ff-3d54-4700-a025-27a32844cf74",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "coffee-tea-cafe",
+                  "name": "coffee-tea-cafe-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "8030812",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.552244,
+                  "longitude": 77.10158
+                },
+                "fallbackIcon": "RESTAURANT",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_restaurant_1279a9ff-3d54-4700-a025-27a32844cf74"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_2\",\"ctt\":\"LOCATION\",\"lid\":554690,\"mit\":\"attractions\"}",
+                "trackingTitle": "DynamicMapPinCard_attraction_554690",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "attractions",
+                  "name": "attractions-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "554690",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.554247,
+                  "longitude": 77.19447
+                },
+                "fallbackIcon": "ATTRACTION",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_attraction_554690"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_3\",\"ctt\":\"LOCATION\",\"lid\":26365587,\"mit\":\"restaurants\"}",
+                "trackingTitle": "DynamicMapPinCard_restaurant_0274d4e4-432d-4129-b88a-6274fe407e85",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "restaurants",
+                  "name": "restaurants-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "26365587",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.54999,
+                  "longitude": 77.0987
+                },
+                "fallbackIcon": "RESTAURANT",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_restaurant_0274d4e4-432d-4129-b88a-6274fe407e85"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_4\",\"ctt\":\"LOCATION\",\"lid\":6040793,\"mit\":\"attractions\"}",
+                "trackingTitle": "DynamicMapPinCard_attraction_6040793",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "attractions",
+                  "name": "attractions-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "6040793",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.55303,
+                  "longitude": 77.21571
+                },
+                "fallbackIcon": "ATTRACTION",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_attraction_6040793"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_5\",\"ctt\":\"LOCATION\",\"lid\":25186004,\"mit\":\"restaurants\"}",
+                "trackingTitle": "DynamicMapPinCard_restaurant_5430834d-16fa-4143-b540-eae999800dfb",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "restaurants",
+                  "name": "restaurants-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "25186004",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.556162,
+                  "longitude": 77.09996
+                },
+                "fallbackIcon": "RESTAURANT",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_restaurant_5430834d-16fa-4143-b540-eae999800dfb"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_6\",\"ctt\":\"LOCATION\",\"lid\":626913,\"mit\":\"attractions\"}",
+                "trackingTitle": "DynamicMapPinCard_attraction_626913",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "attractions",
+                  "name": "attractions-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "626913",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.612679,
+                  "longitude": 77.27726
+                },
+                "fallbackIcon": "ATTRACTION",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_attraction_626913"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_7\",\"ctt\":\"LOCATION\",\"lid\":10794253,\"mit\":\"restaurants\"}",
+                "trackingTitle": "DynamicMapPinCard_restaurant_49b85e75-c7ec-43a3-be05-1cc62a51c38b",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "restaurants",
+                  "name": "restaurants-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "10794253",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.568382,
+                  "longitude": 77.32246
+                },
+                "fallbackIcon": "RESTAURANT",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_restaurant_49b85e75-c7ec-43a3-be05-1cc62a51c38b"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_8\",\"ctt\":\"LOCATION\",\"lid\":15710894,\"mit\":\"attractions\"}",
+                "trackingTitle": "DynamicMapPinCard_attraction_15710894",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "attractions",
+                  "name": "attractions-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "15710894",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.55556,
+                  "longitude": 77.20307
+                },
+                "fallbackIcon": "ATTRACTION",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_attraction_15710894"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_9\",\"ctt\":\"LOCATION\",\"lid\":2687273,\"mit\":\"restaurants\"}",
+                "trackingTitle": "DynamicMapPinCard_restaurant_44f8f888-54c3-4123-acf6-054409f92702",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "restaurants",
+                  "name": "restaurants-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "2687273",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.568338,
+                  "longitude": 77.32228
+                },
+                "fallbackIcon": "RESTAURANT",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_restaurant_44f8f888-54c3-4123-acf6-054409f92702"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_10\",\"ctt\":\"LOCATION\",\"lid\":26772266,\"mit\":\"attractions\"}",
+                "trackingTitle": "DynamicMapPinCard_attraction_26772266",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "attractions",
+                  "name": "attractions-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "26772266",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.558449,
+                  "longitude": 77.202934
+                },
+                "fallbackIcon": "ATTRACTION",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_attraction_26772266"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_11\",\"ctt\":\"LOCATION\",\"lid\":1014923,\"mit\":\"restaurants\"}",
+                "trackingTitle": "DynamicMapPinCard_restaurant_601075db-214f-45cf-8d76-23f84bcd874f",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "restaurants",
+                  "name": "restaurants-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "1014923",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.56849,
+                  "longitude": 77.3224
+                },
+                "fallbackIcon": "RESTAURANT",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_restaurant_601075db-214f-45cf-8d76-23f84bcd874f"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_12\",\"ctt\":\"LOCATION\",\"lid\":26772267,\"mit\":\"attractions\"}",
+                "trackingTitle": "DynamicMapPinCard_attraction_26772267",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "attractions",
+                  "name": "attractions-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "26772267",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.558449,
+                  "longitude": 77.202934
+                },
+                "fallbackIcon": "ATTRACTION",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_attraction_26772267"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_13\",\"ctt\":\"LOCATION\",\"lid\":14997762,\"mit\":\"restaurants\"}",
+                "trackingTitle": "DynamicMapPinCard_restaurant_5b3404af-529b-4f38-80bb-74b4193dc242",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "restaurants",
+                  "name": "restaurants-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "14997762",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.567064,
+                  "longitude": 77.32138
+                },
+                "fallbackIcon": "RESTAURANT",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_restaurant_5b3404af-529b-4f38-80bb-74b4193dc242"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_14\",\"ctt\":\"LOCATION\",\"lid\":2646191,\"mit\":\"attractions\"}",
+                "trackingTitle": "DynamicMapPinCard_attraction_2646191",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "attractions",
+                  "name": "attractions-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "2646191",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.568163,
+                  "longitude": 77.24479
+                },
+                "fallbackIcon": "ATTRACTION",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_attraction_2646191"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_15\",\"ctt\":\"LOCATION\",\"lid\":10501273,\"mit\":\"restaurants\"}",
+                "trackingTitle": "DynamicMapPinCard_restaurant_7bf71d7d-c3f6-4ec3-9848-73d85b643d74",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "restaurants",
+                  "name": "restaurants-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "10501273",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.567444,
+                  "longitude": 77.32104
+                },
+                "fallbackIcon": "RESTAURANT",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_restaurant_7bf71d7d-c3f6-4ec3-9848-73d85b643d74"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_16\",\"ctt\":\"LOCATION\",\"lid\":2154496,\"mit\":\"attractions\"}",
+                "trackingTitle": "DynamicMapPinCard_attraction_2154496",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "attractions",
+                  "name": "attractions-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "2154496",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.528734,
+                  "longitude": 77.219315
+                },
+                "fallbackIcon": "ATTRACTION",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_attraction_2154496"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_17\",\"ctt\":\"LOCATION\",\"lid\":11693654,\"mit\":\"dessert\"}",
+                "trackingTitle": "DynamicMapPinCard_restaurant_97ec1a6b-93b2-463d-a5e8-9cb07f54c085",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "dessert",
+                  "name": "dessert-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "11693654",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.567778,
+                  "longitude": 77.320915
+                },
+                "fallbackIcon": "RESTAURANT",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_restaurant_97ec1a6b-93b2-463d-a5e8-9cb07f54c085"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_18\",\"ctt\":\"LOCATION\",\"lid\":320433,\"mit\":\"attractions\"}",
+                "trackingTitle": "DynamicMapPinCard_attraction_320433",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "attractions",
+                  "name": "attractions-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "320433",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.573265,
+                  "longitude": 77.2064
+                },
+                "fallbackIcon": "ATTRACTION",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_attraction_320433"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_19\",\"ctt\":\"LOCATION\",\"lid\":8086963,\"mit\":\"restaurants\"}",
+                "trackingTitle": "DynamicMapPinCard_restaurant_0a3d2946-bed1-40c5-8224-d93a1eb6e951",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "restaurants",
+                  "name": "restaurants-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "8086963",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.56834,
+                  "longitude": 77.31968
+                },
+                "fallbackIcon": "RESTAURANT",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_restaurant_0a3d2946-bed1-40c5-8224-d93a1eb6e951"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_20\",\"ctt\":\"LOCATION\",\"lid\":15710891,\"mit\":\"attractions\"}",
+                "trackingTitle": "DynamicMapPinCard_attraction_15710891",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "attractions",
+                  "name": "attractions-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "15710891",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.55683,
+                  "longitude": 77.20137
+                },
+                "fallbackIcon": "ATTRACTION",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_attraction_15710891"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_21\",\"ctt\":\"LOCATION\",\"lid\":1205927,\"mit\":\"restaurants\"}",
+                "trackingTitle": "DynamicMapPinCard_restaurant_0e813e9e-2d86-4476-8840-ab232a7305b0",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "restaurants",
+                  "name": "restaurants-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "1205927",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.567648,
+                  "longitude": 77.3216
+                },
+                "fallbackIcon": "RESTAURANT",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_restaurant_0e813e9e-2d86-4476-8840-ab232a7305b0"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_22\",\"ctt\":\"LOCATION\",\"lid\":6496452,\"mit\":\"attractions\"}",
+                "trackingTitle": "DynamicMapPinCard_attraction_6496452",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "attractions",
+                  "name": "attractions-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "6496452",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.55363,
+                  "longitude": 77.1997
+                },
+                "fallbackIcon": "ATTRACTION",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_attraction_6496452"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_23\",\"ctt\":\"LOCATION\",\"lid\":10247937,\"mit\":\"restaurants\"}",
+                "trackingTitle": "DynamicMapPinCard_restaurant_f193c13a-0b57-430b-8250-a3ebb1d4e196",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "restaurants",
+                  "name": "restaurants-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "10247937",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.566978,
+                  "longitude": 77.32108
+                },
+                "fallbackIcon": "RESTAURANT",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_restaurant_f193c13a-0b57-430b-8250-a3ebb1d4e196"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_24\",\"ctt\":\"LOCATION\",\"lid\":324106,\"mit\":\"attractions\"}",
+                "trackingTitle": "DynamicMapPinCard_attraction_324106",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "attractions",
+                  "name": "attractions-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "324106",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.59633,
+                  "longitude": 77.22161
+                },
+                "fallbackIcon": "ATTRACTION",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_attraction_324106"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_25\",\"ctt\":\"LOCATION\",\"lid\":8468565,\"mit\":\"restaurants\"}",
+                "trackingTitle": "DynamicMapPinCard_restaurant_21823b84-a921-493b-bd47-a1c928d7219d",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "restaurants",
+                  "name": "restaurants-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "8468565",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.567614,
+                  "longitude": 77.321655
+                },
+                "fallbackIcon": "RESTAURANT",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_restaurant_21823b84-a921-493b-bd47-a1c928d7219d"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_26\",\"ctt\":\"LOCATION\",\"lid\":321494,\"mit\":\"attractions\"}",
+                "trackingTitle": "DynamicMapPinCard_attraction_321494",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "attractions",
+                  "name": "attractions-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "321494",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.555967,
+                  "longitude": 77.25378
+                },
+                "fallbackIcon": "ATTRACTION",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_attraction_321494"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_27\",\"ctt\":\"LOCATION\",\"lid\":14188340,\"mit\":\"restaurants\"}",
+                "trackingTitle": "DynamicMapPinCard_restaurant_351f5f40-3ef5-4b3d-87c6-a757c79f6906",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "restaurants",
+                  "name": "restaurants-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "14188340",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.525501,
+                  "longitude": 77.09842
+                },
+                "fallbackIcon": "RESTAURANT",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_restaurant_351f5f40-3ef5-4b3d-87c6-a757c79f6906"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_28\",\"ctt\":\"LOCATION\",\"lid\":2462091,\"mit\":\"attractions\"}",
+                "trackingTitle": "DynamicMapPinCard_attraction_2462091",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "attractions",
+                  "name": "attractions-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "2462091",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.577518,
+                  "longitude": 77.195915
+                },
+                "fallbackIcon": "ATTRACTION",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_attraction_2462091"
+              },
+              {
+                "__typename": "AppPresentation_MapPin",
+                "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_0_29\",\"ctt\":\"LOCATION\",\"lid\":10159196,\"mit\":\"restaurants\"}",
+                "trackingTitle": "DynamicMapPinCard_restaurant_d159aa45-bcbf-4f66-975b-7f07bd28c90a",
+                "icon": {
+                  "__typename": "AppPresentation_MapPinIcon",
+                  "activeName": "restaurants",
+                  "name": "restaurants-fill"
+                },
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "10159196",
+                  "type": "location"
+                },
+                "geoPoint": {
+                  "__typename": "AppPresentation_GeoPoint",
+                  "latitude": 28.567219,
+                  "longitude": 77.32093
+                },
+                "fallbackIcon": "RESTAURANT",
+                "omitSaves": false,
+                "stableDiffingType": "DynamicMapPinCard_restaurant_d159aa45-bcbf-4f66-975b-7f07bd28c90a"
+              }
+            ]
+          },
+          {
+            "__typename": "AppPresentation_MapCardCarousel",
+            "stableDiffingType": "MapCarouselSection_MAP_CARD_CAROUSEL",
+            "trackingKey": "{\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1\",\"mt\":\"BEST_NEARBY\"}",
+            "trackingTitle": "MapCarouselSection_MAP_CARD_CAROUSEL",
+            "clusterId": "MAP_CARD_CAROUSEL",
+            "content": [
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": {
+                  "__typename": "AppPresentation_Badge",
+                  "size": "SMALL",
+                  "type": "BEST_OF_BEST",
+                  "year": "2023",
+                  "badgeDetails": null
+                },
+                "trackingKey": "{\"br\":4.5,\"rc\":13383,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_0\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":311626,\"pir\":1,\"mid\":146218801}",
+                "trackingTitle": "PoiMapCard_attraction_311626",
+                "stableDiffingType": "PoiMapCard_attraction_311626",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "311626",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Qutub Minar",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Points of Interest & Landmarks • Architectural Buildings"
+                },
+                "secondaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Open now"
+                },
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 995,
+                    "maxWidth": 1099,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/b7/1f/31/qutab-minar.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4.5,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "13,383",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3800 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=attraction&contentId=311626",
+                    "nonCanonicalUrl": "/AppDetail?contentType=attraction&contentId=311626",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "311626",
+                      "contentType": "attraction",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Qutub Minar",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": {
+                  "__typename": "AppPresentation_Badge",
+                  "size": "SMALL",
+                  "type": "TRAVELLER_CHOICE",
+                  "year": "2023",
+                  "badgeDetails": null
+                },
+                "trackingKey": "{\"br\":5.0,\"rc\":563,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_1\",\"ctt\":\"LOCATION\",\"pt\":\"restaurant\",\"lid\":8030812,\"pir\":4,\"mid\":488645245}",
+                "trackingTitle": "PoiMapCard_restaurant_1279a9ff-3d54-4700-a025-27a32844cf74",
+                "stableDiffingType": "PoiMapCard_restaurant_1279a9ff-3d54-4700-a025-27a32844cf74",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "8030812",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Delhi Baking Company",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "$$ - $$$ • Bakeries • Cafe • International"
+                },
+                "secondaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Open now"
+                },
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 942,
+                    "maxWidth": 1024,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/20/22/7d/signature-jw-chocolate.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 5,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "563",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3809 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=restaurant&contentId=1279a9ff-3d54-4700-a025-27a32844cf74",
+                    "nonCanonicalUrl": "/AppDetail?contentType=restaurant&contentId=1279a9ff-3d54-4700-a025-27a32844cf74",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "1279a9ff-3d54-4700-a025-27a32844cf74",
+                      "contentType": "restaurant",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Delhi Baking Company",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":4.5,\"rc\":1603,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_2\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":554690,\"pir\":25,\"mid\":258983012}",
+                "trackingTitle": "PoiMapCard_attraction_554690",
+                "stableDiffingType": "PoiMapCard_attraction_554690",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "554690",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Hauz Khas Village",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Neighborhoods"
+                },
+                "secondaryInfo": null,
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 424,
+                    "maxWidth": 640,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/6f/c4/64/hauz-khas-village.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4.5,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "1,603",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3800 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=attraction&contentId=554690",
+                    "nonCanonicalUrl": "/AppDetail?contentType=attraction&contentId=554690",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "554690",
+                      "contentType": "attraction",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Hauz Khas Village",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":5.0,\"rc\":203,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_3\",\"ctt\":\"LOCATION\",\"pt\":\"restaurant\",\"lid\":26365587,\"pir\":26,\"mid\":704201996}",
+                "trackingTitle": "PoiMapCard_restaurant_0274d4e4-432d-4129-b88a-6274fe407e85",
+                "stableDiffingType": "PoiMapCard_restaurant_0274d4e4-432d-4129-b88a-6274fe407e85",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "26365587",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Encalm Privé",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "$$$$ • Indian • European • Asian"
+                },
+                "secondaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Open now"
+                },
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 2268,
+                    "maxWidth": 4032,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/f9/45/0c/bar-at-encalm-prive.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 5,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "203",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3809 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=restaurant&contentId=0274d4e4-432d-4129-b88a-6274fe407e85",
+                    "nonCanonicalUrl": "/AppDetail?contentType=restaurant&contentId=0274d4e4-432d-4129-b88a-6274fe407e85",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "0274d4e4-432d-4129-b88a-6274fe407e85",
+                      "contentType": "restaurant",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Encalm Privé",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":4.0,\"rc\":2,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_4\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":6040793,\"pir\":420}",
+                "trackingTitle": "PoiMapCard_attraction_6040793",
+                "stableDiffingType": "PoiMapCard_attraction_6040793",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "6040793",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Academy of Fine Arts & Literature",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Points of Interest & Landmarks"
+                },
+                "secondaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Open now"
+                },
+                "cardPhoto": null,
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "2",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3798 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=attraction&contentId=6040793",
+                    "nonCanonicalUrl": "/AppDetail?contentType=attraction&contentId=6040793",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "6040793",
+                      "contentType": "attraction",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Academy of Fine Arts & Literature",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":4.5,\"rc\":136,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_5\",\"ctt\":\"LOCATION\",\"pt\":\"restaurant\",\"lid\":25186004,\"pir\":160,\"mid\":665597696}",
+                "trackingTitle": "PoiMapCard_restaurant_5430834d-16fa-4143-b540-eae999800dfb",
+                "stableDiffingType": "PoiMapCard_restaurant_5430834d-16fa-4143-b540-eae999800dfb",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "25186004",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Encalm Lounge",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "$$ - $$$ • Indian • European • Vegetarian Friendly"
+                },
+                "secondaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Open now"
+                },
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 600,
+                    "maxWidth": 600,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/ac/37/00/creating-delightful-experience.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4.5,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "136",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3809 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=restaurant&contentId=5430834d-16fa-4143-b540-eae999800dfb",
+                    "nonCanonicalUrl": "/AppDetail?contentType=restaurant&contentId=5430834d-16fa-4143-b540-eae999800dfb",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "5430834d-16fa-4143-b540-eae999800dfb",
+                      "contentType": "restaurant",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Encalm Lounge",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": {
+                  "__typename": "AppPresentation_Badge",
+                  "size": "SMALL",
+                  "type": "BEST_OF_BEST",
+                  "year": "2023",
+                  "badgeDetails": null
+                },
+                "trackingKey": "{\"br\":4.5,\"rc\":11988,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_6\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":626913,\"pir\":2,\"mid\":186893839}",
+                "trackingTitle": "PoiMapCard_attraction_626913",
+                "stableDiffingType": "PoiMapCard_attraction_626913",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "626913",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Swaminarayan Akshardham",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Religious Sites • Gardens"
+                },
+                "secondaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Open now"
+                },
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 720,
+                    "maxWidth": 1167,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/23/c6/0f/img-20160507-135554-largejpg.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4.5,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "11,988",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3795 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=attraction&contentId=626913",
+                    "nonCanonicalUrl": "/AppDetail?contentType=attraction&contentId=626913",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "626913",
+                      "contentType": "attraction",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Swaminarayan Akshardham",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": {
+                  "__typename": "AppPresentation_Badge",
+                  "size": "SMALL",
+                  "type": "TRAVELLER_CHOICE",
+                  "year": "2023",
+                  "badgeDetails": null
+                },
+                "trackingKey": "{\"br\":5.0,\"rc\":150,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_7\",\"ctt\":\"LOCATION\",\"pt\":\"restaurant\",\"lid\":10794253,\"pir\":1,\"mid\":479207703}",
+                "trackingTitle": "PoiMapCard_restaurant_49b85e75-c7ec-43a3-be05-1cc62a51c38b",
+                "stableDiffingType": "PoiMapCard_restaurant_49b85e75-c7ec-43a3-be05-1cc62a51c38b",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "10794253",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Made in India",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "$$$$ • Indian • Vegetarian Friendly • Vegan Options"
+                },
+                "secondaryInfo": null,
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 192,
+                    "maxWidth": 288,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/90/21/17/experience-fine-dining.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 5,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "150",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3789 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=restaurant&contentId=49b85e75-c7ec-43a3-be05-1cc62a51c38b",
+                    "nonCanonicalUrl": "/AppDetail?contentType=restaurant&contentId=49b85e75-c7ec-43a3-be05-1cc62a51c38b",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "49b85e75-c7ec-43a3-be05-1cc62a51c38b",
+                      "contentType": "restaurant",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Made in India",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":3.0,\"rc\":1,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_8\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":15710894,\"pir\":492,\"mid\":369673802}",
+                "trackingTitle": "PoiMapCard_attraction_15710894",
+                "stableDiffingType": "PoiMapCard_attraction_15710894",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "15710894",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Biran Ka Gumbad",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Ancient Ruins"
+                },
+                "secondaryInfo": null,
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 1536,
+                    "maxWidth": 2048,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/08/c6/4a/20150406-152236-largejpg.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 3,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "1",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3799 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=attraction&contentId=15710894",
+                    "nonCanonicalUrl": "/AppDetail?contentType=attraction&contentId=15710894",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "15710894",
+                      "contentType": "attraction",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Biran Ka Gumbad",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": {
+                  "__typename": "AppPresentation_Badge",
+                  "size": "SMALL",
+                  "type": "TRAVELLER_CHOICE",
+                  "year": "2023",
+                  "badgeDetails": null
+                },
+                "trackingKey": "{\"br\":4.5,\"rc\":185,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_9\",\"ctt\":\"LOCATION\",\"pt\":\"restaurant\",\"lid\":2687273,\"pir\":3,\"mid\":317985385}",
+                "trackingTitle": "PoiMapCard_restaurant_44f8f888-54c3-4123-acf6-054409f92702",
+                "stableDiffingType": "PoiMapCard_restaurant_44f8f888-54c3-4123-acf6-054409f92702",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "2687273",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "SXVIII",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "$$$$ • Indian • International • Asian"
+                },
+                "secondaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Open now"
+                },
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 1333,
+                    "maxWidth": 2000,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/f4/12/69/sxviii.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4.5,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "185",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3789 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=restaurant&contentId=44f8f888-54c3-4123-acf6-054409f92702",
+                    "nonCanonicalUrl": "/AppDetail?contentType=restaurant&contentId=44f8f888-54c3-4123-acf6-054409f92702",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "44f8f888-54c3-4123-acf6-054409f92702",
+                      "contentType": "restaurant",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for SXVIII",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":3.0,\"rc\":1,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_10\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":26772266,\"pir\":475,\"mid\":716726317}",
+                "trackingTitle": "PoiMapCard_attraction_26772266",
+                "stableDiffingType": "PoiMapCard_attraction_26772266",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "26772266",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Chhoti Gumti",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Historic Sites"
+                },
+                "secondaryInfo": null,
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 4000,
+                    "maxWidth": 3000,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/b8/60/2d/caption.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 3,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "1",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3799 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=attraction&contentId=26772266",
+                    "nonCanonicalUrl": "/AppDetail?contentType=attraction&contentId=26772266",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "26772266",
+                      "contentType": "attraction",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Chhoti Gumti",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": {
+                  "__typename": "AppPresentation_Badge",
+                  "size": "SMALL",
+                  "type": "TRAVELLER_CHOICE",
+                  "year": "2023",
+                  "badgeDetails": null
+                },
+                "trackingKey": "{\"br\":4.5,\"rc\":173,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_11\",\"ctt\":\"LOCATION\",\"pt\":\"restaurant\",\"lid\":1014923,\"pir\":4,\"mid\":480476791}",
+                "trackingTitle": "PoiMapCard_restaurant_601075db-214f-45cf-8d76-23f84bcd874f",
+                "stableDiffingType": "PoiMapCard_restaurant_601075db-214f-45cf-8d76-23f84bcd874f",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "1014923",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Rare Eastern Dining",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "$$$$ • Chinese • Asian • Szechuan"
+                },
+                "secondaryInfo": null,
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 5792,
+                    "maxWidth": 8688,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/a3/7e/77/r-e-d-rate-eastern-dining.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4.5,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "173",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3789 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=restaurant&contentId=601075db-214f-45cf-8d76-23f84bcd874f",
+                    "nonCanonicalUrl": "/AppDetail?contentType=restaurant&contentId=601075db-214f-45cf-8d76-23f84bcd874f",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "601075db-214f-45cf-8d76-23f84bcd874f",
+                      "contentType": "restaurant",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Rare Eastern Dining",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":3.0,\"rc\":1,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_12\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":26772267,\"pir\":474,\"mid\":716726384}",
+                "trackingTitle": "PoiMapCard_attraction_26772267",
+                "stableDiffingType": "PoiMapCard_attraction_26772267",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "26772267",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Sakri Gumti",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Historic Sites"
+                },
+                "secondaryInfo": null,
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 2448,
+                    "maxWidth": 3264,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/b8/60/70/caption.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 3,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "1",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3799 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=attraction&contentId=26772267",
+                    "nonCanonicalUrl": "/AppDetail?contentType=attraction&contentId=26772267",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "26772267",
+                      "contentType": "attraction",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Sakri Gumti",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":4.5,\"rc\":69,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_13\",\"ctt\":\"LOCATION\",\"pt\":\"restaurant\",\"lid\":14997762,\"pir\":8,\"mid\":707852676}",
+                "trackingTitle": "PoiMapCard_restaurant_5b3404af-529b-4f38-80bb-74b4193dc242",
+                "stableDiffingType": "PoiMapCard_restaurant_5b3404af-529b-4f38-80bb-74b4193dc242",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "14997762",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Burma Burma Restaurant & Tea Room",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "$$ - $$$ • Asian • Burmese • Vegetarian Friendly"
+                },
+                "secondaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Open now"
+                },
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 5464,
+                    "maxWidth": 8192,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/30/f9/84/bb-cover.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4.5,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "69",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3789 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=restaurant&contentId=5b3404af-529b-4f38-80bb-74b4193dc242",
+                    "nonCanonicalUrl": "/AppDetail?contentType=restaurant&contentId=5b3404af-529b-4f38-80bb-74b4193dc242",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "5b3404af-529b-4f38-80bb-74b4193dc242",
+                      "contentType": "restaurant",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Burma Burma Restaurant & Tea Room",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":4.5,\"rc\":749,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_14\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":2646191,\"pir\":2,\"mid\":439626355}",
+                "trackingTitle": "PoiMapCard_attraction_2646191",
+                "stableDiffingType": "PoiMapCard_attraction_2646191",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "2646191",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "ISKCON Vrindavan",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Religious Sites"
+                },
+                "secondaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Open now"
+                },
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 3596,
+                    "maxWidth": 4843,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/34/2a/73/temple-courtyard.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4.5,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "749",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3796 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=attraction&contentId=2646191",
+                    "nonCanonicalUrl": "/AppDetail?contentType=attraction&contentId=2646191",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "2646191",
+                      "contentType": "attraction",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for ISKCON Vrindavan",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":4.0,\"rc\":226,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_15\",\"ctt\":\"LOCATION\",\"pt\":\"restaurant\",\"lid\":10501273,\"pir\":12,\"mid\":199219534}",
+                "trackingTitle": "PoiMapCard_restaurant_7bf71d7d-c3f6-4ec3-9848-73d85b643d74",
+                "stableDiffingType": "PoiMapCard_restaurant_7bf71d7d-c3f6-4ec3-9848-73d85b643d74",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "10501273",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Pirates Of Grill",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "$$ - $$$ • Indian • Barbecue • Asian"
+                },
+                "secondaryInfo": null,
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 1333,
+                    "maxWidth": 2000,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/df/d9/4e/nice-and-comfortable.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "226",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3789 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=restaurant&contentId=7bf71d7d-c3f6-4ec3-9848-73d85b643d74",
+                    "nonCanonicalUrl": "/AppDetail?contentType=restaurant&contentId=7bf71d7d-c3f6-4ec3-9848-73d85b643d74",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "7bf71d7d-c3f6-4ec3-9848-73d85b643d74",
+                      "contentType": "restaurant",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Pirates Of Grill",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": {
+                  "__typename": "AppPresentation_Badge",
+                  "size": "SMALL",
+                  "type": "TRAVELLER_CHOICE",
+                  "year": "2023",
+                  "badgeDetails": null
+                },
+                "trackingKey": "{\"br\":4.5,\"rc\":679,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_16\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":2154496,\"pir\":9,\"mid\":91436853}",
+                "trackingTitle": "PoiMapCard_attraction_2154496",
+                "stableDiffingType": "PoiMapCard_attraction_2154496",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "2154496",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Select Citywalk",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Shopping Malls"
+                },
+                "secondaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Open now"
+                },
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 1336,
+                    "maxWidth": 2000,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/73/37/35/select-citywalk.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4.5,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "679",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3797 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=attraction&contentId=2154496",
+                    "nonCanonicalUrl": "/AppDetail?contentType=attraction&contentId=2154496",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "2154496",
+                      "contentType": "attraction",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Select Citywalk",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":4.5,\"rc\":70,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_17\",\"ctt\":\"LOCATION\",\"pt\":\"restaurant\",\"lid\":11693654,\"pir\":3,\"mid\":416897402}",
+                "trackingTitle": "PoiMapCard_restaurant_97ec1a6b-93b2-463d-a5e8-9cb07f54c085",
+                "stableDiffingType": "PoiMapCard_restaurant_97ec1a6b-93b2-463d-a5e8-9cb07f54c085",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "11693654",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "The Big Chill Cakery",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "$$ - $$$ • Dessert • Italian • French"
+                },
+                "secondaryInfo": null,
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 2448,
+                    "maxWidth": 3264,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/d9/59/7a/food.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4.5,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "70",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3789 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=restaurant&contentId=97ec1a6b-93b2-463d-a5e8-9cb07f54c085",
+                    "nonCanonicalUrl": "/AppDetail?contentType=restaurant&contentId=97ec1a6b-93b2-463d-a5e8-9cb07f54c085",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "97ec1a6b-93b2-463d-a5e8-9cb07f54c085",
+                      "contentType": "restaurant",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for The Big Chill Cakery",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": {
+                  "__typename": "AppPresentation_Badge",
+                  "size": "SMALL",
+                  "type": "TRAVELLER_CHOICE",
+                  "year": "2023",
+                  "badgeDetails": null
+                },
+                "trackingKey": "{\"br\":4.0,\"rc\":1093,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_18\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":320433,\"pir\":44,\"mid\":403968618}",
+                "trackingTitle": "PoiMapCard_attraction_320433",
+                "stableDiffingType": "PoiMapCard_attraction_320433",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "320433",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Dilli Haat",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Flea & Street Markets"
+                },
+                "secondaryInfo": null,
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 3790,
+                    "maxWidth": 6737,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/14/12/6a/dilli-haat.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "1,093",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3800 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=attraction&contentId=320433",
+                    "nonCanonicalUrl": "/AppDetail?contentType=attraction&contentId=320433",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "320433",
+                      "contentType": "attraction",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Dilli Haat",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":4.0,\"rc\":42,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_19\",\"ctt\":\"LOCATION\",\"pt\":\"restaurant\",\"lid\":8086963,\"pir\":5,\"mid\":429539269}",
+                "trackingTitle": "PoiMapCard_restaurant_0a3d2946-bed1-40c5-8224-d93a1eb6e951",
+                "stableDiffingType": "PoiMapCard_restaurant_0a3d2946-bed1-40c5-8224-d93a1eb6e951",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "8086963",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Burger King",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "$$ - $$$ • Quick Bites • American • Fast Food"
+                },
+                "secondaryInfo": null,
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 1260,
+                    "maxWidth": 1080,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/9a/3f/c5/img-20191011-wa0029-largejpg.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "42",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3789 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=restaurant&contentId=0a3d2946-bed1-40c5-8224-d93a1eb6e951",
+                    "nonCanonicalUrl": "/AppDetail?contentType=restaurant&contentId=0a3d2946-bed1-40c5-8224-d93a1eb6e951",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "0a3d2946-bed1-40c5-8224-d93a1eb6e951",
+                      "contentType": "restaurant",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Burger King",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":3.5,\"rc\":3,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_20\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":15710891,\"pir\":374,\"mid\":369672861}",
+                "trackingTitle": "PoiMapCard_attraction_15710891",
+                "stableDiffingType": "PoiMapCard_attraction_15710891",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "15710891",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Munda Gumbad",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Ancient Ruins"
+                },
+                "secondaryInfo": null,
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 1536,
+                    "maxWidth": 2048,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/08/c2/9d/20150408-151658-largejpg.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 3.5,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "3",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3800 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=attraction&contentId=15710891",
+                    "nonCanonicalUrl": "/AppDetail?contentType=attraction&contentId=15710891",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "15710891",
+                      "contentType": "attraction",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Munda Gumbad",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":4.0,\"rc\":310,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_21\",\"ctt\":\"LOCATION\",\"pt\":\"restaurant\",\"lid\":1205927,\"pir\":13,\"mid\":159410814}",
+                "trackingTitle": "PoiMapCard_restaurant_0e813e9e-2d86-4476-8840-ab232a7305b0",
+                "stableDiffingType": "PoiMapCard_restaurant_0e813e9e-2d86-4476-8840-ab232a7305b0",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "1205927",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Punjabi By Nature",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "$$$$ • Indian • Asian • Vegetarian Friendly"
+                },
+                "secondaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Open now"
+                },
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 768,
+                    "maxWidth": 1024,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/80/6a/7e/punjabi-by-nature.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "310",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3789 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=restaurant&contentId=0e813e9e-2d86-4476-8840-ab232a7305b0",
+                    "nonCanonicalUrl": "/AppDetail?contentType=restaurant&contentId=0e813e9e-2d86-4476-8840-ab232a7305b0",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "0e813e9e-2d86-4476-8840-ab232a7305b0",
+                      "contentType": "restaurant",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Punjabi By Nature",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":4.0,\"rc\":33,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_22\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":6496452,\"pir\":123,\"mid\":163754783}",
+                "trackingTitle": "PoiMapCard_attraction_6496452",
+                "stableDiffingType": "PoiMapCard_attraction_6496452",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "6496452",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Hauz Khas Market",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Neighborhoods"
+                },
+                "secondaryInfo": null,
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 1500,
+                    "maxWidth": 2000,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/c2/b3/1f/hauz-khas-market.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "33",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3800 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=attraction&contentId=6496452",
+                    "nonCanonicalUrl": "/AppDetail?contentType=attraction&contentId=6496452",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "6496452",
+                      "contentType": "attraction",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Hauz Khas Market",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":4.0,\"rc\":202,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_23\",\"ctt\":\"LOCATION\",\"pt\":\"restaurant\",\"lid\":10247937,\"pir\":18,\"mid\":269261371}",
+                "trackingTitle": "PoiMapCard_restaurant_f193c13a-0b57-430b-8250-a3ebb1d4e196",
+                "stableDiffingType": "PoiMapCard_restaurant_f193c13a-0b57-430b-8250-a3ebb1d4e196",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "10247937",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "SodaBottleOpenerWala",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "$$ - $$$ • Indian • Asian • Persian"
+                },
+                "secondaryInfo": null,
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 662,
+                    "maxWidth": 993,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/0c/9a/3b/lubiya-polo.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "202",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3789 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=restaurant&contentId=f193c13a-0b57-430b-8250-a3ebb1d4e196",
+                    "nonCanonicalUrl": "/AppDetail?contentType=restaurant&contentId=f193c13a-0b57-430b-8250-a3ebb1d4e196",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "f193c13a-0b57-430b-8250-a3ebb1d4e196",
+                      "contentType": "restaurant",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for SodaBottleOpenerWala",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": {
+                  "__typename": "AppPresentation_Badge",
+                  "size": "SMALL",
+                  "type": "TRAVELLER_CHOICE",
+                  "year": "2023",
+                  "badgeDetails": null
+                },
+                "trackingKey": "{\"br\":4.5,\"rc\":4154,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_24\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":324106,\"pir\":8,\"mid\":102027136}",
+                "trackingTitle": "PoiMapCard_attraction_324106",
+                "stableDiffingType": "PoiMapCard_attraction_324106",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "324106",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Lodhi Garden",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Gardens"
+                },
+                "secondaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Open now"
+                },
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 1333,
+                    "maxWidth": 2000,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/14/cf/80/lodi-gardens.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4.5,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "4,154",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3799 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=attraction&contentId=324106",
+                    "nonCanonicalUrl": "/AppDetail?contentType=attraction&contentId=324106",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "324106",
+                      "contentType": "attraction",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Lodhi Garden",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":4.0,\"rc\":88,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_25\",\"ctt\":\"LOCATION\",\"pt\":\"restaurant\",\"lid\":8468565,\"pir\":15,\"mid\":310437690}",
+                "trackingTitle": "PoiMapCard_restaurant_21823b84-a921-493b-bd47-a1c928d7219d",
+                "stableDiffingType": "PoiMapCard_restaurant_21823b84-a921-493b-bd47-a1c928d7219d",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "8468565",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Mamagoto",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "$$ - $$$ • Chinese • Japanese • Asian"
+                },
+                "secondaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Open now"
+                },
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 2048,
+                    "maxWidth": 2048,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/80/e7/3a/photo0jpg.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "88",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3789 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=restaurant&contentId=21823b84-a921-493b-bd47-a1c928d7219d",
+                    "nonCanonicalUrl": "/AppDetail?contentType=restaurant&contentId=21823b84-a921-493b-bd47-a1c928d7219d",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "21823b84-a921-493b-bd47-a1c928d7219d",
+                      "contentType": "restaurant",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Mamagoto",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":4.5,\"rc\":1182,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_26\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":321494,\"pir\":11,\"mid\":36393274}",
+                "trackingTitle": "PoiMapCard_attraction_321494",
+                "stableDiffingType": "PoiMapCard_attraction_321494",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "321494",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "ISKCON Temple Delhi",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Religious Sites"
+                },
+                "secondaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Open now"
+                },
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 431,
+                    "maxWidth": 604,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/2b/51/3a/the-real-beauty.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4.5,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "1,182",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3795 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=attraction&contentId=321494",
+                    "nonCanonicalUrl": "/AppDetail?contentType=attraction&contentId=321494",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "321494",
+                      "contentType": "attraction",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for ISKCON Temple Delhi",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": {
+                  "__typename": "AppPresentation_Badge",
+                  "size": "SMALL",
+                  "type": "TRAVELLER_CHOICE",
+                  "year": "2023",
+                  "badgeDetails": null
+                },
+                "trackingKey": "{\"br\":5.0,\"rc\":553,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_27\",\"ctt\":\"LOCATION\",\"pt\":\"restaurant\",\"lid\":14188340,\"pir\":33,\"mid\":397308302}",
+                "trackingTitle": "PoiMapCard_restaurant_351f5f40-3ef5-4b3d-87c6-a757c79f6906",
+                "stableDiffingType": "PoiMapCard_restaurant_351f5f40-3ef5-4b3d-87c6-a757c79f6906",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "14188340",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Raajsik",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "$$ - $$$ • Indian • Vegetarian Friendly • Vegan Options"
+                },
+                "secondaryInfo": null,
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 1920,
+                    "maxWidth": 2880,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/ae/71/8e/raajsik-indian-specialty.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 5,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "553",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3808 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=restaurant&contentId=351f5f40-3ef5-4b3d-87c6-a757c79f6906",
+                    "nonCanonicalUrl": "/AppDetail?contentType=restaurant&contentId=351f5f40-3ef5-4b3d-87c6-a757c79f6906",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "351f5f40-3ef5-4b3d-87c6-a757c79f6906",
+                      "contentType": "restaurant",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Raajsik",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":4.0,\"rc\":486,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_28\",\"ctt\":\"LOCATION\",\"pt\":\"attraction\",\"lid\":2462091,\"pir\":39,\"mid\":340679149}",
+                "trackingTitle": "PoiMapCard_attraction_2462091",
+                "stableDiffingType": "PoiMapCard_attraction_2462091",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "2462091",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Sarojini Nagar Market",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Flea & Street Markets"
+                },
+                "secondaryInfo": null,
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 780,
+                    "maxWidth": 1040,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/4e/59/ed/sarojini-nagar-market.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "486",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3801 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=attraction&contentId=2462091",
+                    "nonCanonicalUrl": "/AppDetail?contentType=attraction&contentId=2462091",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "2462091",
+                      "contentType": "attraction",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Sarojini Nagar Market",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              },
+              {
+                "__typename": "AppPresentation_HorizontalMerchandisingCard",
+                "badge": null,
+                "trackingKey": "{\"br\":4.0,\"rc\":144,\"ik\":\"28610051-d037-4c9b-8747-375213ffccd2_map_1_29\",\"ctt\":\"LOCATION\",\"pt\":\"restaurant\",\"lid\":10159196,\"pir\":30,\"mid\":315792890}",
+                "trackingTitle": "PoiMapCard_restaurant_d159aa45-bcbf-4f66-975b-7f07bd28c90a",
+                "stableDiffingType": "PoiMapCard_restaurant_d159aa45-bcbf-4f66-975b-7f07bd28c90a",
+                "isSaved": false,
+                "saveId": {
+                  "__typename": "Trips_ReferenceV2",
+                  "id": "10159196",
+                  "type": "location"
+                },
+                "omitSaves": false,
+                "cardTitle": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "Chili's Grill & Bar",
+                  "debugValueKey": null
+                },
+                "primaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "$$ - $$$ • Mexican • American • Southwestern"
+                },
+                "secondaryInfo": {
+                  "__typename": "AppPresentation_JoinedLocalizableObjects",
+                  "text": "Open now"
+                },
+                "cardPhoto": {
+                  "__typename": "AppPresentation_PhotoItem",
+                  "sizes": {
+                    "__typename": "AppPresentation_PhotoItemSizeDynamic",
+                    "maxHeight": 600,
+                    "maxWidth": 1200,
+                    "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/d2/9d/fa/chili-s-noida.jpg?w={width}&h={height}&s=1"
+                  }
+                },
+                "bubbleRating": {
+                  "__typename": "AppPresentation_BubbleRating",
+                  "rating": 4,
+                  "numberReviews": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "144",
+                    "debugValueKey": null
+                  }
+                },
+                "distance": {
+                  "__typename": "AppPresentation_LocalizedString",
+                  "string": "3789 km",
+                  "debugValueKey": null
+                },
+                "freeCancellationTooltip": null,
+                "labels": [],
+                "descriptiveText": null,
+                "cardLink": {
+                  "__typename": "AppPresentation_InternalLink",
+                  "route": {
+                    "__typename": "Routing_Route",
+                    "fragment": null,
+                    "page": "AppDetail",
+                    "url": "/AppDetail?contentType=restaurant&contentId=d159aa45-bcbf-4f66-975b-7f07bd28c90a",
+                    "nonCanonicalUrl": "/AppDetail?contentType=restaurant&contentId=d159aa45-bcbf-4f66-975b-7f07bd28c90a",
+                    "typedParams": {
+                      "__typename": "Routing_AppDetailParameters",
+                      "contentId": "d159aa45-bcbf-4f66-975b-7f07bd28c90a",
+                      "contentType": "restaurant",
+                      "spAttributionToken": null,
+                      "wasPlusShown": null
+                    }
+                  },
+                  "webviewRoute": null,
+                  "text": null,
+                  "accessibilityString": {
+                    "__typename": "AppPresentation_LocalizedString",
+                    "string": "View details for Chili's Grill & Bar",
+                    "debugValueKey": null
+                  },
+                  "trackingContext": "server_card"
+                },
+                "merchandisingText": null,
+                "commerceButtons": null,
+                "closureInfo": null,
+                "promotionalInfo": null
+              }
+            ]
+          }
+        ],
+        "impressions": [
+          {
+            "__typename": "AppPresentation_ImpressionLog",
+            "data": "noClientLog"
+          }
+        ],
+        "statusV2": {
+          "__typename": "AppPresentation_SuccessQueryResponseStatus",
+          "partial": false,
+          "pollingStatus": null
+        },
+        "commerce": {
+          "__typename": "AppPresentation_CommerceParameters",
+          "attractionCommerce": {
+            "__typename": "AppPresentation_AttractionCommerceParameters",
+            "setByUser": false,
+            "updated": null,
+            "startDate": "2024-03-10",
+            "endDate": "2024-03-11",
+            "pax": [
+              {
+                "__typename": "AppPresentation_AgeBandSelection",
+                "count": 2,
+                "ageBand": "ADULT",
+                "endAge": null,
+                "maxTravelersPerBooking": null,
+                "minTravelersPerBooking": null,
+                "startAge": null
+              }
+            ]
+          },
+          "hotelCommerce": {
+            "__typename": "AppPresentation_HotelCommerceParameters",
+            "setByUser": true,
+            "updated": null,
+            "checkIn": "2024-03-09",
+            "checkOut": "2024-03-10",
+            "rooms": [
+              {
+                "__typename": "AppPresentation_HotelRoom",
+                "adults": 2,
+                "childrenAges": []
+              }
+            ]
+          },
+          "restaurantCommerce": {
+            "__typename": "AppPresentation_RestaurantCommerceParameters",
+            "setByUser": false,
+            "updated": null,
+            "partySize": 2,
+            "reservationTime": "2024-03-09T20:00:00"
+          },
+          "lastUpdated": null
+        },
+        "updatedClusterIds": []
+      }
+    }
+  }

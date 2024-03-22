@@ -1,0 +1,721 @@
+{
+    "data": {
+      "Typeahead_autocomplete": {
+        "__typename": "Typeahead_Response",
+        "resultsId": "759fd319-1a12-42be-8139-614144a5d4c9_1dc39b6b-ed9d-46bd-99e4-bf07e8b554f9",
+        "results": [
+          {
+            "__typename": "Typeahead_QuerySuggestionItem",
+            "documentId": "geo-pt;10021-297665;g297665;p10021",
+            "suggestionType": "query",
+            "buCategory": "ATTRACTIONS",
+            "text": "rajasthan things to do",
+            "parentGeoDetails": {
+              "__typename": "LocationSelection_LocationInformationV2",
+              "names": {
+                "__typename": "LocationSelection_LocationNames",
+                "longOnlyHierarchyTypeaheadV2": "India, Asia"
+              }
+            },
+            "route": {
+              "__typename": "Routing_Route",
+              "fragment": null,
+              "page": "AttractionsFusion",
+              "url": "/Attractions-g297665-Activities-Rajasthan.html",
+              "nonCanonicalUrl": "/Attractions-g297665-Activities-Rajasthan.html",
+              "typedParams": {
+                "__typename": "Routing_AttractionsFusionParameters"
+              }
+            },
+            "scopeType": "GEO"
+          },
+          {
+            "__typename": "Typeahead_QuerySuggestionItem",
+            "documentId": "geo-pt;10023-297665;g297665;p10023",
+            "suggestionType": "query",
+            "buCategory": "HOTELS",
+            "text": "rajasthan hotels",
+            "parentGeoDetails": {
+              "__typename": "LocationSelection_LocationInformationV2",
+              "names": {
+                "__typename": "LocationSelection_LocationNames",
+                "longOnlyHierarchyTypeaheadV2": "India, Asia"
+              }
+            },
+            "route": {
+              "__typename": "Routing_Route",
+              "fragment": null,
+              "page": "HotelsFusion",
+              "url": "/Hotels-g297665-Rajasthan-Hotels.html",
+              "nonCanonicalUrl": "/Hotels-g297665-Rajasthan-Hotels.html",
+              "typedParams": {
+                "__typename": "Routing_HotelsFusionParameters"
+              }
+            },
+            "scopeType": "GEO"
+          },
+          {
+            "__typename": "Typeahead_LocationItem",
+            "documentId": "loc;297665;g297665",
+            "detailsV2": {
+              "__typename": "LocationSelection_LocationInformationV2",
+              "locationId": 297665,
+              "isGeo": true,
+              "placeType": "STATE",
+              "names": {
+                "__typename": "LocationSelection_LocationNames",
+                "name": "Rajasthan",
+                "longOnlyHierarchyTypeaheadV2": "India, Asia"
+              },
+              "geocode": {
+                "__typename": "LocationSelection_LocationInformationV2Geocode",
+                "latitude": 26.647459,
+                "longitude": 74.46167
+              },
+              "contact": {
+                "__typename": "LocationSelection_LocationInformationV2Contact",
+                "streetAddress": {
+                  "__typename": "LocationSelection_Address",
+                  "street1": ""
+                }
+              },
+              "route": {
+                "__typename": "Routing_Route",
+                "fragment": null,
+                "page": "Tourism",
+                "url": "/Tourism-g297665-Rajasthan-Vacations.html",
+                "nonCanonicalUrl": "/Tourism-g297665-Rajasthan-Vacations.html",
+                "typedParams": {
+                  "__typename": "Routing_TourismParameters",
+                  "geoId": 297665
+                }
+              }
+            },
+            "details": {
+              "__typename": "LocationInformation",
+              "socialStatistics": {
+                "__typename": "SocialStatistics",
+                "isSaved": false
+              }
+            },
+            "image": {
+              "__typename": "PrimaryMedia_PrimaryMedia",
+              "photo": {
+                "__typename": "Photo",
+                "photoSizeDynamic": {
+                  "__typename": "PhotoSizeDynamic",
+                  "maxHeight": 602,
+                  "maxWidth": 3080,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fc/f9/rajasthan.jpg?w={width}&h={height}&s=1"
+                },
+                "photoSizes": [
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 0,
+                    "width": 0,
+                    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fc/f9/rajasthan.jpg?w=100&h=100&s=1"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 50,
+                    "width": 50,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/15/33/fc/f9/rajasthan.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 150,
+                    "width": 150,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-l/15/33/fc/f9/rajasthan.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 200,
+                    "width": 180,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-i/15/33/fc/f9/rajasthan.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 49,
+                    "width": 250,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-f/15/33/fc/f9/rajasthan.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 120,
+                    "width": 320,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-b/320x120/15/33/fc/f9/rajasthan.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 108,
+                    "width": 550,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f9/rajasthan.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 250,
+                    "width": 768,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-b/768x250/15/33/fc/f9/rajasthan.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 250,
+                    "width": 1024,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-b/1024x250/15/33/fc/f9/rajasthan.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 200,
+                    "width": 1024,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-w/15/33/fc/f9/rajasthan.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 250,
+                    "width": 1280,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-b/1280x250/15/33/fc/f9/rajasthan.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 250,
+                    "width": 1280,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/15/33/fc/f9/rajasthan.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 500,
+                    "width": 2560,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-b/2560x500/15/33/fc/f9/rajasthan.jpg"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "__typename": "Typeahead_LocationItem",
+            "documentId": "loc;6919689",
+            "detailsV2": {
+              "__typename": "LocationSelection_LocationInformationV2",
+              "locationId": 6919689,
+              "isGeo": false,
+              "placeType": "EATERY",
+              "names": {
+                "__typename": "LocationSelection_LocationNames",
+                "name": "RAJASTHAN VILLA",
+                "longOnlyHierarchyTypeaheadV2": "Toulouse, Occitanie, France"
+              },
+              "geocode": {
+                "__typename": "LocationSelection_LocationInformationV2Geocode",
+                "latitude": 43.606106,
+                "longitude": 1.441604
+              },
+              "contact": {
+                "__typename": "LocationSelection_LocationInformationV2Contact",
+                "streetAddress": {
+                  "__typename": "LocationSelection_Address",
+                  "street1": "4 rue de l Esquile"
+                }
+              },
+              "route": null
+            },
+            "details": {
+              "__typename": "LocationInformation",
+              "socialStatistics": {
+                "__typename": "SocialStatistics",
+                "isSaved": false
+              }
+            },
+            "image": {
+              "__typename": "PrimaryMedia_PrimaryMedia",
+              "photo": {
+                "__typename": "Photo",
+                "photoSizeDynamic": {
+                  "__typename": "PhotoSizeDynamic",
+                  "maxHeight": 1329,
+                  "maxWidth": 2000,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/23/ee/ee/rajasthan-villa.jpg?w={width}&h={height}&s=1"
+                },
+                "photoSizes": [
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 0,
+                    "width": 0,
+                    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/23/ee/ee/rajasthan-villa.jpg?w=100&h=100&s=1"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 50,
+                    "width": 50,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/08/23/ee/ee/rajasthan-villa.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 150,
+                    "width": 150,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-l/08/23/ee/ee/rajasthan-villa.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 166,
+                    "width": 250,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-f/08/23/ee/ee/rajasthan-villa.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 365,
+                    "width": 550,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/08/23/ee/ee/rajasthan-villa.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 680,
+                    "width": 1024,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-w/08/23/ee/ee/rajasthan-villa.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 1329,
+                    "width": 2000,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-o/08/23/ee/ee/rajasthan-villa.jpg"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "__typename": "Typeahead_LocationItem",
+            "documentId": "loc;8417132",
+            "detailsV2": {
+              "__typename": "LocationSelection_LocationInformationV2",
+              "locationId": 8417132,
+              "isGeo": false,
+              "placeType": "ATTRACTION",
+              "names": {
+                "__typename": "LocationSelection_LocationNames",
+                "name": "Rajasthan Tour Planner",
+                "longOnlyHierarchyTypeaheadV2": "Jaipur, India"
+              },
+              "geocode": {
+                "__typename": "LocationSelection_LocationInformationV2Geocode",
+                "latitude": 26.927263,
+                "longitude": 75.70864
+              },
+              "contact": {
+                "__typename": "LocationSelection_LocationInformationV2Contact",
+                "streetAddress": {
+                  "__typename": "LocationSelection_Address",
+                  "street1": "B 26 shekhawat colony sirsi road"
+                }
+              },
+              "route": null
+            },
+            "details": {
+              "__typename": "LocationInformation",
+              "socialStatistics": {
+                "__typename": "SocialStatistics",
+                "isSaved": false
+              }
+            },
+            "image": {
+              "__typename": "PrimaryMedia_PrimaryMedia",
+              "photo": {
+                "__typename": "Photo",
+                "photoSizeDynamic": {
+                  "__typename": "PhotoSizeDynamic",
+                  "maxHeight": 787,
+                  "maxWidth": 1180,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/54/1b/bc/getlstd-property-photo.jpg?w={width}&h={height}&s=1"
+                },
+                "photoSizes": [
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 0,
+                    "width": 0,
+                    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/54/1b/bc/getlstd-property-photo.jpg?w=100&h=100&s=1"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 50,
+                    "width": 50,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/08/54/1b/bc/getlstd-property-photo.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 150,
+                    "width": 150,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-l/08/54/1b/bc/getlstd-property-photo.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 167,
+                    "width": 250,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-f/08/54/1b/bc/getlstd-property-photo.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 366,
+                    "width": 550,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/08/54/1b/bc/getlstd-property-photo.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 682,
+                    "width": 1024,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-w/08/54/1b/bc/getlstd-property-photo.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 787,
+                    "width": 1180,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-o/08/54/1b/bc/getlstd-property-photo.jpg"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "__typename": "Typeahead_LocationItem",
+            "documentId": "loc;7751599",
+            "detailsV2": {
+              "__typename": "LocationSelection_LocationInformationV2",
+              "locationId": 7751599,
+              "isGeo": false,
+              "placeType": "ATTRACTION",
+              "names": {
+                "__typename": "LocationSelection_LocationNames",
+                "name": "Rajasthan Small Scale Cottage Industry",
+                "longOnlyHierarchyTypeaheadV2": "Amer, India"
+              },
+              "geocode": null,
+              "contact": {
+                "__typename": "LocationSelection_LocationInformationV2Contact",
+                "streetAddress": {
+                  "__typename": "LocationSelection_Address",
+                  "street1": "Jagat Shriomani Temple Road"
+                }
+              },
+              "route": null
+            },
+            "details": {
+              "__typename": "LocationInformation",
+              "socialStatistics": {
+                "__typename": "SocialStatistics",
+                "isSaved": false
+              }
+            },
+            "image": {
+              "__typename": "PrimaryMedia_PrimaryMedia",
+              "photo": {
+                "__typename": "Photo",
+                "photoSizeDynamic": {
+                  "__typename": "PhotoSizeDynamic",
+                  "maxHeight": 768,
+                  "maxWidth": 1024,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/59/7e/66/img-20180317-wa0009-largejpg.jpg?w={width}&h={height}&s=1"
+                },
+                "photoSizes": [
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 0,
+                    "width": 0,
+                    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/59/7e/66/img-20180317-wa0009-largejpg.jpg?w=100&h=100&s=1"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 50,
+                    "width": 50,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/12/59/7e/66/img-20180317-wa0009-largejpg.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 150,
+                    "width": 150,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-l/12/59/7e/66/img-20180317-wa0009-largejpg.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 200,
+                    "width": 180,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-i/12/59/7e/66/img-20180317-wa0009-largejpg.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 188,
+                    "width": 250,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-f/12/59/7e/66/img-20180317-wa0009-largejpg.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 413,
+                    "width": 550,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/59/7e/66/img-20180317-wa0009-largejpg.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 768,
+                    "width": 1024,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-o/12/59/7e/66/img-20180317-wa0009-largejpg.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 768,
+                    "width": 1024,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-w/12/59/7e/66/img-20180317-wa0009-largejpg.jpg"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "__typename": "Typeahead_LocationItem",
+            "documentId": "loc;16674118",
+            "detailsV2": {
+              "__typename": "LocationSelection_LocationInformationV2",
+              "locationId": 16674118,
+              "isGeo": false,
+              "placeType": "ATTRACTION",
+              "names": {
+                "__typename": "LocationSelection_LocationNames",
+                "name": "Rajasthan Holidays",
+                "longOnlyHierarchyTypeaheadV2": "Jaipur, India"
+              },
+              "geocode": {
+                "__typename": "LocationSelection_LocationInformationV2Geocode",
+                "latitude": 26.916878,
+                "longitude": 75.79254
+              },
+              "contact": {
+                "__typename": "LocationSelection_LocationInformationV2Contact",
+                "streetAddress": {
+                  "__typename": "LocationSelection_Address",
+                  "street1": null
+                }
+              },
+              "route": null
+            },
+            "details": {
+              "__typename": "LocationInformation",
+              "socialStatistics": {
+                "__typename": "SocialStatistics",
+                "isSaved": false
+              }
+            },
+            "image": {
+              "__typename": "PrimaryMedia_PrimaryMedia",
+              "photo": {
+                "__typename": "Photo",
+                "photoSizeDynamic": {
+                  "__typename": "PhotoSizeDynamic",
+                  "maxHeight": 704,
+                  "maxWidth": 1329,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/9f/ad/ce/jaisalmer-desert-camp.jpg?w={width}&h={height}&s=1"
+                },
+                "photoSizes": [
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 0,
+                    "width": 0,
+                    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/9f/ad/ce/jaisalmer-desert-camp.jpg?w=100&h=100&s=1"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 50,
+                    "width": 50,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/1c/9f/ad/ce/jaisalmer-desert-camp.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 150,
+                    "width": 150,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-l/1c/9f/ad/ce/jaisalmer-desert-camp.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 200,
+                    "width": 180,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-i/1c/9f/ad/ce/jaisalmer-desert-camp.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 132,
+                    "width": 250,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-f/1c/9f/ad/ce/jaisalmer-desert-camp.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 291,
+                    "width": 550,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/1c/9f/ad/ce/jaisalmer-desert-camp.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 542,
+                    "width": 1024,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-w/1c/9f/ad/ce/jaisalmer-desert-camp.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 678,
+                    "width": 1280,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/9f/ad/ce/jaisalmer-desert-camp.jpg"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "__typename": "Typeahead_LocationItem",
+            "documentId": "loc;23140631",
+            "detailsV2": {
+              "__typename": "LocationSelection_LocationInformationV2",
+              "locationId": 23140631,
+              "isGeo": false,
+              "placeType": "ATTRACTION",
+              "names": {
+                "__typename": "LocationSelection_LocationNames",
+                "name": "Rajasthan Routes Trails Pvt. Ltd.",
+                "longOnlyHierarchyTypeaheadV2": "Jaipur, India"
+              },
+              "geocode": {
+                "__typename": "LocationSelection_LocationInformationV2Geocode",
+                "latitude": 26.92096,
+                "longitude": 75.75394
+              },
+              "contact": {
+                "__typename": "LocationSelection_LocationInformationV2Contact",
+                "streetAddress": {
+                  "__typename": "LocationSelection_Address",
+                  "street1": "Sirsi Road, Khatipura, Vaishali Nagar, Near Queen's Road turn"
+                }
+              },
+              "route": null
+            },
+            "details": {
+              "__typename": "LocationInformation",
+              "socialStatistics": {
+                "__typename": "SocialStatistics",
+                "isSaved": false
+              }
+            },
+            "image": {
+              "__typename": "PrimaryMedia_PrimaryMedia",
+              "photo": {
+                "__typename": "Photo",
+                "photoSizeDynamic": {
+                  "__typename": "PhotoSizeDynamic",
+                  "maxHeight": 2160,
+                  "maxWidth": 3240,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/9d/08/e3/caption.jpg?w={width}&h={height}&s=1"
+                },
+                "photoSizes": [
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 0,
+                    "width": 0,
+                    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/9d/08/e3/caption.jpg?w=100&h=100&s=1"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 50,
+                    "width": 50,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-t/1c/9d/08/e3/caption.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 150,
+                    "width": 150,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-l/1c/9d/08/e3/caption.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 200,
+                    "width": 180,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-i/1c/9d/08/e3/caption.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 167,
+                    "width": 250,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-f/1c/9d/08/e3/caption.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 367,
+                    "width": 550,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-s/1c/9d/08/e3/caption.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 683,
+                    "width": 1024,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-w/1c/9d/08/e3/caption.jpg"
+                  },
+                  {
+                    "__typename": "PhotoSize",
+                    "height": 853,
+                    "width": 1280,
+                    "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/9d/08/e3/caption.jpg"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "__typename": "Typeahead_QuerySuggestionItem",
+            "documentId": "tag;18884;g297665;p10023",
+            "suggestionType": "query",
+            "buCategory": "HOTELS",
+            "text": "rajasthan adults only",
+            "parentGeoDetails": {
+              "__typename": "LocationSelection_LocationInformationV2",
+              "names": {
+                "__typename": "LocationSelection_LocationNames",
+                "longOnlyHierarchyTypeaheadV2": "India, Asia"
+              }
+            },
+            "route": {
+              "__typename": "Routing_Route",
+              "fragment": null,
+              "page": "HotelsFusion",
+              "url": "/Hotels-g297665-zft18884-Rajasthan-Hotels.html",
+              "nonCanonicalUrl": "/Hotels-g297665-zft18884-Rajasthan-Hotels.html",
+              "typedParams": {
+                "__typename": "Routing_HotelsFusionParameters"
+              }
+            },
+            "scopeType": "GEO"
+          },
+          {
+            "__typename": "Typeahead_QuerySuggestionItem",
+            "documentId": "tag;11287;g297665;p10023",
+            "suggestionType": "query",
+            "buCategory": "HOTELS",
+            "text": "rajasthan butler service",
+            "parentGeoDetails": {
+              "__typename": "LocationSelection_LocationInformationV2",
+              "names": {
+                "__typename": "LocationSelection_LocationNames",
+                "longOnlyHierarchyTypeaheadV2": "India, Asia"
+              }
+            },
+            "route": {
+              "__typename": "Routing_Route",
+              "fragment": null,
+              "page": "HotelsFusion",
+              "url": "/Hotels-g297665-zft11287-Rajasthan-Hotels.html",
+              "nonCanonicalUrl": "/Hotels-g297665-zft11287-Rajasthan-Hotels.html",
+              "typedParams": {
+                "__typename": "Routing_HotelsFusionParameters"
+              }
+            },
+            "scopeType": "GEO"
+          },
+          {
+            "__typename": "Typeahead_RescueResultItem",
+            "documentId": "RESCUE",
+            "text": "rajesthan"
+          }
+        ]
+      }
+    }
+  }
